@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ff">
+  <meta name="description" content="Dhairya Kumar's frontend developer portfolio showcasing web projects, skills and education.">
+  <title>Dhairya Kumar | LUMORA Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="background-orb orb-one"></div>
+  <div class="background-orb orb-two"></div>
+
+  <header class="navbar glass">
+    <a class="logo" href="#home"><span>✦</span> LUMORA</a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <select id="themeSelect" class="theme-select" aria-label="Choose colour theme">
+        <option value="lavender">Lavender</option>
+        <option value="mint">Sage Green</option>
+        <option value="peach">Peach</option>
+        <option value="sky">Sky Blue</option>
+        <option value="dark">Dark</option>
+      </select>
+      <a class="button button-small" href="#contact">Let's Talk ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-container">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="status-dot"></span> AVAILABLE TO LEARN & BUILD</span>
+        <p class="intro">Hello, I'm</p>
+        <h1>Dhairya <span class="gradient-text">Kumar</span></h1>
+        <h2>I'm a <span id="typingText" class="gradient-text">Frontend Developer</span><span class="typing-caret">|</span></h2>
+        <p class="hero-description">
+          I create modern, responsive and interactive web experiences
+          with clean design, creative ideas and attention to detail.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button" href="#projects">Explore My Work ↗</a>
+          <a class="button button-secondary" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/dhairyakumar401-arch" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="floating-cube cube-one">✦</div>
+        <div class="floating-cube cube-two">&lt;/&gt;</div>
+
+        <div class="profile-card glass">
+          <div class="profile-symbol">D</div>
+          <span class="profile-caption">CREATIVE DEVELOPER</span>
+          <div class="profile-line"></div>
+          <h3>Build. Create. Learn.</h3>
+          <p>Turning ideas into interactive web experiences.</p>
+        </div>
+
+        <div class="floating-badge badge-top">✦ Creative Developer</div>
+        <div class="floating-badge badge-bottom">⌘ Always Learning</div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section section-container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">✦ ABOUT ME</span>
+        <h2>A little bit <span class="gradient-text">about me.</span></h2>
+      </div>
+
+      <div class="about-card glass reveal">
+        <div>
+          <h3>Hi, I'm Dhairya 👋</h3>
+          <p>
+            I'm a BTech Computer Science student interested in frontend
+            development, creative UI design and building useful web applications.
+            I enjoy learning new technologies and turning ideas into real projects.
+          </p>
+        </div>
+        <div class="about-highlight">
+          <span class="highlight-icon">⌘</span>
+          <h3>My Goal</h3>
+          <p>Become a skilled developer by building projects and improving every day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="content-section section-container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">✦ MY JOURNEY</span>
+        <h2>Education & <span class="gradient-text">Achievements.</span></h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="education-card glass reveal">
+          <span class="education-icon">01</span>
+          <span class="project-tag">SECONDARY EDUCATION</span>
+          <h3>Class 10th</h3>
+         <p>Completed in 2022–2023</p>
+         <p class="muted">PARADISE CHILDREN ACADEMY</p>
+         <p class="muted">Percentage: 65.2%</p>
+        </article>
+
+        <article class="education-card glass reveal">
+          <span class="education-icon">02</span>
+          <span class="project-tag">SENIOR SECONDARY</span>
+          <h3>Class 12th</h3>
+          <p>Completed in 2023–2025</p>
+          <p class="muted">DAV JADUPUR</p>
+          <p class="muted">Stream: Science</p>
+          <p class="muted">Percentage: 57.1%</p>
+        </article>
+
+        <article class="education-card glass reveal">
+          <span class="education-icon">03</span>
+          <span class="project-tag">UNDERGRADUATE</span>
+          <h3>BTech — Computer Science</h3>
+          <p>IIMT University, Greater Noida</p>
+          <p class="muted">Currently pursuing my degree.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section section-container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">✦ MY TOOLKIT</span>
+        <h2>Skills & <span class="gradient-text">technologies.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>HTML</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="85"></span></div>
+        </article>
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>CSS</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="80"></span></div>
+        </article>
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>JavaScript</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="65"></span></div>
+        </article>
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>Responsive Design</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="75"></span></div>
+        </article>
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>Git & GitHub</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="65"></span></div>
+        </article>
+        <article class="skill-card glass reveal">
+          <div class="skill-top"><span>UI Design</span><span>Learning</span></div>
+          <div class="skill-track"><span class="skill-fill" data-level="70"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section section-container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">✦ SELECTED WORK</span>
+        <h2>Featured <span class="gradient-text">projects.</span></h2>
+        <p>A few projects I've worked on while learning and building.</p>
+      </div>
+
+      <div class="project-filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="web">Web Apps</button>
+        <button class="filter-button" data-filter="ui">UI Design</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass reveal" data-category="web">
+          <div class="project-art art-gallery"><span>▦</span><small>LUMORA GALLERY</small></div>
+          <span class="project-tag">WEB APP</span>
+          <h3>LUMORA Image Gallery</h3>
+          <p>An image gallery featuring browsing, image previews and a responsive layout.</p>
+          <div class="project-links">
+            <a class="button button-small" href="https://dhairyakumar401-arch.github.io/CodeAlpha_ImageGallery/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            <a class="text-link" href="https://github.com/dhairyakumar401-arch/CodeAlpha_ImageGallery" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal" data-category="web">
+          <div class="project-art art-math"><span>＋ − × ÷</span><small>LUMORA MATH</small></div>
+          <span class="project-tag">WEB APP</span>
+          <h3>LUMORA MATH</h3>
+          <p>A modern calculator with a responsive interface and multiple visual themes.</p>
+          <div class="project-links">
+            <a class="button button-small" href="https://dhairyakumar401-arch.github.io/CodeAlpha_Calculator/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            <a class="text-link" href="https://github.com/dhairyakumar401-arch/CodeAlpha_Calculator" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal" data-category="ui">
+          <div class="project-art art-portfolio"><span>✦</span><small>LUMORA PORTFOLIO</small></div>
+          <span class="project-tag">UI DESIGN</span>
+          <h3>Personal Portfolio</h3>
+          <p>A glassmorphism portfolio concept with animations and interactive themes.</p>
+          <div class="project-links">
+            <a class="button button-small" href="#home">View Project ↗</a>
+            <a class="text-link" href="https://github.com/dhairyakumar401-arch" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="content-section section-container">
+      <div class="resume-card glass reveal">
+        <div>
+          <span class="eyebrow">✦ RESUME</span>
+          <h2>Let's take the next <span class="gradient-text">step.</span></h2>
+        </div>
+        <a class="button" href="resume.pdf" download>Download Resume ↓</a>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section section-container">
+      <div class="contact-card glass reveal">
+        <span class="eyebrow">✦ GET IN TOUCH</span>
+        <h2>Let's build something <span class="gradient-text">great.</span></h2>
+        <p>Have a project idea or an opportunity? Send me a message.</p>
+
+        <form id="contactForm" class="contact-form">
+          <label>
+            Your name
+            <input type="text" id="contactName" name="name" placeholder="Enter your name" required>
+          </label>
+          <label>
+            Your email
+            <input type="email" id="contactEmail" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            Your message
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+          </label>
+          <button class="button" type="submit">Prepare Email ↗</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">✦ LUMORA</a>
+    <p>Designed & built by Dhairya Kumar · <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
